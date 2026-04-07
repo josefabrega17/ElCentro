@@ -1,135 +1,119 @@
-<html lang="en"><head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Centro - Trust &amp; Transparency in Service Hiring</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      window.FontAwesomeConfig = {
-        autoReplaceSvg: 'nest'
-      };
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-
-    <script>
-      tailwind.config = {
-        theme:
-        {
-          extend:
-          {
-            fontFamily:
-            {
-              sans: ['Inter', 'sans-serif'],
-            },
-            colors:
-            {
-              primary: '#FF6B35',
-              secondary: '#FFF5F0',
-              accent: '#FFB088',
-              textDark: '#1A1A1A',
-              textLight: '#6B7280',
-              bgLight: '#FFFBF8'
-            }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Centro - Inicio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            primary: '#FF6B35',
+            secondary: '#FFF5F0',
+            textDark: '#1A1A1A',
+            textLight: '#6B7280',
+            bgLight: '#FFFBF8'
           }
         }
       }
-    </script>
-    <style>
-      ::-webkit-scrollbar
-      {
-        display: none;
-      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+    }
 
-      body
-      {
-        font-family: 'Inter', sans-serif;
-        background-color: #FFFBF8;
-        color: #1A1A1A;
-        overflow: hidden;
-        height: 1024px;
-      }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #FFFBF8;
+      color: #1A1A1A;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
 
-      .glass-card
-      {
-        background: rgba(255, 255, 255, 0.95);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 235, 225, 0.8);
-      }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 235, 225, 0.8);
+    }
 
-      .hover-lift
-      {
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-      }
+    .hover-lift {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
 
-      .hover-lift:hover
-      {
-        transform: translateY(-4px);
-        box-shadow: 0 10px 25px -5px rgba(255, 107, 53, 0.15), 0 8px 10px -6px rgba(255, 107, 53, 0.1);
-      }
-    </style>
-    <style data-grapesjs-styles="true">
-      #i1mk8
-      {
-        max-width: 512px;
-        margin: 0px;
-      }
-    </style>
-  </head>
+    .hover-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px -5px rgba(255, 107, 53, 0.15), 0 8px 10px -6px rgba(255, 107, 53, 0.1);
+    }
 
-  <body class="antialiased">
-    <!-- Header -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Centro - Trust &amp; Transparency in Service Hiring</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
-    <main class="pt-20 h-[1024px] overflow-hidden">
-      <!-- Hero Section with Dual Entry -->
-      <section id="hero" class="relative bg-bgLight h-[944px] overflow-hidden flex items-center">
-        <!-- Background Elements -->
-        <div class="absolute inset-0 z-0">
-          <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-secondary/60 via-bgLight to-bgLight">
-          </div>
+    .card-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body class="antialiased">
+  <main class="pt-20 min-h-screen">
+    <section class="relative bg-bgLight min-h-[calc(100vh-5rem)] flex items-center py-16">
+      <div class="absolute inset-0 z-0">
+        <div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-secondary/60 via-bgLight to-bgLight"></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-textDark tracking-tight mb-6 leading-tight">
+            La plataforma de servicios<br>
+            <span class="text-primary">más confiable de Panamá</span>
+          </h1>
+          <p class="text-xl text-textLight mb-4 font-medium">
+            Menos incertidumbre. Mayor eficiencia.
+          </p>
+          <p class="text-lg text-textLight">
+            Conectamos clientes con proveedores de servicios verificados mediante tecnología simple, transparente y eficaz.
+          </p>
         </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-          <div class="text-center max-w-3xl mx-auto mb-16">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-textDark tracking-tight mb-6 leading-relaxed w-[800px] h-[120px]" id="iscfs">La plataforma de servicios<br><span class="text-primary">más confiable de Panamá</span></h1>
-            <p class="text-xl text-textLight mb-4 font-medium">Menos
-              incertidumbre. Mayor eficiencia.
-            </p>
-            <p class="text-lg text-textLight">
-              Conectamos clientes con proveedores de servicios verificados
-              mediante tecnología simple, transparente y eficaz.
-            </p>
-          </div><!-- Dual Entry Cards -->
-          <div class="text-center mb-8">
-            <h2 class="text-2xl font-bold text-textDark mb-8">¿Quién eres?</h2>
-          </div>
-          <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <!-- Client Card -->
-            <div class="glass-card rounded-2xl p-10 hover-lift text-center flex flex-col items-center cursor-pointer group" id="ioowt">
+
+        <div class="text-center mb-8">
+          <h2 class="text-2xl font-bold text-textDark mb-8">¿Quién eres?</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <a href="/clientes" class="card-link">
+            <div class="glass-card rounded-2xl p-10 hover-lift text-center flex flex-col items-center cursor-pointer group h-full">
               <div class="w-24 h-24 rounded-full bg-secondary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <img src="https://cdn-icons-png.flaticon.com/512/16794/16794610.png" jsaction="" alt="Person - Free ui icons" jsname="kn3ccd" id="i1mk8" class="sFlh5c FyHeAf iPVvYb w-[25px] h-[25px]">
+                <img src="https://cdn-icons-png.flaticon.com/512/16794/16794610.png" alt="Cliente" class="w-10 h-10 object-contain">
               </div>
               <h3 class="text-2xl font-bold text-textDark mb-4">Soy Cliente</h3>
-              <p class="text-textLight mb-8 h-12">Encuentra proveedores
-                verificados, compara opciones en tiempo real, revisa reputación
-                y contrata con seguridad.</p>
-            </div><!-- Provider Card -->
-            <div class="glass-card rounded-2xl p-10 hover-lift text-center flex flex-col items-center cursor-pointer group">
+              <p class="text-textLight">
+                Encuentra proveedores verificados, compara opciones en tiempo real, revisa reputación y contrata con seguridad.
+              </p>
+            </div>
+          </a>
+
+          <a href="/proveedores" class="card-link">
+            <div class="glass-card rounded-2xl p-10 hover-lift text-center flex flex-col items-center cursor-pointer group h-full">
               <div class="w-24 h-24 rounded-full bg-secondary flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                 <i class="fa-solid fa-briefcase text-4xl text-primary"></i>
               </div>
-              <h3 class="text-2xl font-bold text-textDark mb-4">Soy Proveedor
-              </h3>
-              <p class="text-textLight mb-8 h-12">Obtén nuevos clientes a través
-                de una plataforma diseñada para ti.</p>
+              <h3 class="text-2xl font-bold text-textDark mb-4">Soy Proveedor</h3>
+              <p class="text-textLight">
+                Obtén nuevos clientes a través de una plataforma diseñada para ti.
+              </p>
             </div>
-          </div>
+          </a>
         </div>
-      </section>
-    </main>
-  
-
-</body></html>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

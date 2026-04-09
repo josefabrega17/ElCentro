@@ -37,13 +37,13 @@
           }
         }
       }
-    </script>
     <style>
-      ::-webkit-scrollbar
-      {
-        display: none;
-      }
-    </style>
+  html { scroll-behavior: smooth; }
+  ::-webkit-scrollbar
+  {
+    display: none;
+  }
+</style>
   </head>
 
   <body class="bg-warm-bg font-sans text-text-primary">
@@ -212,7 +212,7 @@
           <form id="waitlist-form" class="space-y-6">
             <div class="grid md:grid-cols-2 gap-6"><div class="space-y-2"><label class="text-sm font-semibold text-text-primary">Nombre Completo</label><input type="text" placeholder="Juan Pérez" required class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"></div><div class="space-y-2"><label class="text-sm font-semibold text-text-primary">Correo Electrónico</label><input type="email" placeholder="juan@ejemplo.com" required class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"></div></div>
             <div class="space-y-2"><label class="text-sm font-semibold text-text-primary">Nombre del Negocio (Opcional)</label><input type="text" placeholder="Servicios Legales Pérez" class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"></div>
-            <div class="space-y-2"><label class="text-sm font-semibold text-text-primary">Tipo de Servicio</label><select id="provider-service-select" required class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"><option value="">Selecciona tu profesión</option><option value="Barbería">Barbería</option><option value="Diseño Gráfico">Diseño Gráfico</option><option value="Electricista">Electricista</option><option value="Entrenamiento Personal">Entrenamiento Personal</option><option value="Estética">Estética</option><option value="Otro">Otro</option><option value="Peluquería de Mascotas">Peluquería de Mascotas</option><option value="Plomería">Plomería</option><option value="Servicio de Limpieza">Servicio de Limpieza</option><option value="Servicios Legales">Servicios Legales</option><option value="Técnico de Aire Acondicionado">Técnico de Aire Acondicionado</option></select></div>
+            <div class="space-y-2"><label class="text-sm font-semibold text-text-primary">Tipo de Servicio</label><select id="provider-service-select" required class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"><option value="">Selecciona tu profesión</option><option value="Barbería">Barbería</option><option value="Diseño Gráfico">Diseño Gráfico</option><option value="Electricista">Electricista</option><option value="Entrenamiento Personal">Entrenamiento Personal</option><option value="Estética">Estética</option><option value="Peluquería de Mascotas">Peluquería de Mascotas</option><option value="Plomería">Plomería</option><option value="Servicio de Limpieza">Servicio de Limpieza</option><option value="Servicios Legales">Servicios Legales</option><option value="Técnico de Aire Acondicionado">Técnico de Aire Acondicionado</option><option value="Otro">Otro</option></select></div>
             <div id="provider-other-service-wrapper" class="space-y-2 hidden"><label class="text-sm font-semibold text-text-primary">Especifica el servicio que quieres ofrecer</label><input id="provider-other-service-input" type="text" placeholder="Ej. Reparación de aire acondicionado" class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"></div>
             <button type="submit" class="w-full bg-orange-primary hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all shadow-md hover:shadow-lg">Únete Ya</button>
             <p class="text-center text-sm text-text-secondary"><i class="fa-solid fa-lock text-orange-primary mr-1"></i>Respetamos tu privacidad. Sin spam, nunca. Puedes cancelar en cualquier momento.</p>

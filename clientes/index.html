@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>::-webkit-scrollbar { display: none; }</style>
+    <style>
+html { scroll-behavior: smooth; }
+::-webkit-scrollbar { display: none; }
+</style>
     <script>
         tailwind.config = {
             theme: {
@@ -164,12 +167,13 @@
               <option value="Electricista">Electricista</option>
               <option value="Entrenamiento Personal">Entrenamiento Personal</option>
               <option value="Estética">Estética</option>
-              <option value="Otro">Otro</option>
+              
               <option value="Peluquería de Mascotas">Peluquería de Mascotas</option>
               <option value="Plomería">Plomería</option>
               <option value="Servicio de Limpieza">Servicio de Limpieza</option>
               <option value="Servicios Legales">Servicios Legales</option>
               <option value="Técnico de Aire Acondicionado">Técnico de Aire Acondicionado</option>
+                <option value="Otro">Otro</option>
             </select>
           </div>
           <div id="other-service-wrapper" class="space-y-2 hidden">

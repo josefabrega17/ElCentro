@@ -21,14 +21,20 @@
           {
             colors:
             {
-              'warm-bg': '#FAF9F7',
-              'warm-card': '#FEFEFE',
-              'warm-accent': '#FFF8F0',
-              'orange-primary': '#F97316',
-              'orange-light': '#FDBA74',
-              'text-primary': '#1A1A1A',
-              'text-secondary': '#6B7280',
-              'border-light': '#E5E7EB'
+               'warm-bg': '#FFFFFF',
+  'warm-card': '#FFFFFF',
+  'warm-accent': '#FFF1EC',
+
+  'orange-primary': '#F5621C',
+  'teal-primary': '#0F766E',
+
+  'text-primary': '#111111',
+  'text-secondary': '#6C6C70',
+
+  'border-light': '#E8E3DC',
+
+  'fill': '#F2F2F7',
+  'fill2': '#F7F7F7'
             },
             fontFamily:
             {
@@ -73,7 +79,7 @@
                 mecánicos y proveedores de servicios locales.
               </p>
             </div>
-            <div class="flex flex-col sm:flex-row gap-4"><a href="#waitlist-section" class="bg-orange-primary hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-base transition-all shadow-md hover:shadow-lg text-center">
+            <div class="flex flex-col sm:flex-row gap-4"><a href="#waitlist-section" class="bg-orange-primary hover:bg-[#D44D0F] text-white px-8 py-4 rounded-lg font-semibold text-base transition-all shadow-md hover:shadow-lg text-center">
                 Únete Ya
               </a><button class="bg-white hover:bg-gray-50 text-text-primary px-8 py-4 rounded-lg font-semibold text-base transition-all border border-border-light shadow-sm">
                 Ver Demo
@@ -215,7 +221,7 @@
             <div class="space-y-2"><label class="text-sm font-semibold text-text-primary">Nombre del Negocio (Opcional)</label><input type="text" placeholder="Servicios Legales Pérez" class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"></div>
             <div class="space-y-2"><label class="text-sm font-semibold text-text-primary">Tipo de Servicio</label><select id="provider-service-select" required class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"><option value="">Selecciona tu profesión</option><option value="Barbería">Barbería</option><option value="Diseño Gráfico">Diseño Gráfico</option><option value="Electricista">Electricista</option><option value="Entrenamiento Personal">Entrenamiento Personal</option><option value="Estética">Estética</option><option value="Peluquería de Mascotas">Peluquería de Mascotas</option><option value="Plomería">Plomería</option><option value="Servicio de Limpieza">Servicio de Limpieza</option><option value="Servicios Legales">Servicios Legales</option><option value="Técnico de Aire Acondicionado">Técnico de Aire Acondicionado</option><option value="Otro">Otro</option></select></div>
             <div id="provider-other-service-wrapper" class="space-y-2 hidden"><label class="text-sm font-semibold text-text-primary">Especifica el servicio que quieres ofrecer</label><input id="provider-other-service-input" type="text" placeholder="Ej. Reparación de aire acondicionado" class="w-full px-4 py-3 rounded-lg border border-border-light focus:border-orange-primary focus:ring-2 focus:ring-orange-100 outline-none transition-all"></div>
-            <button type="submit" class="w-full bg-orange-primary hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all shadow-md hover:shadow-lg">Únete Ya</button>
+            <button type="submit" class="w-full bg-orange-primary hover:bg-[#D44D0F] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all shadow-md hover:shadow-lg">Únete Ya</button>
             <p class="text-center text-sm text-text-secondary"><i class="fa-solid fa-lock text-orange-primary mr-1"></i>Respetamos tu privacidad. Sin spam, nunca. Puedes cancelar en cualquier momento.</p>
           </form>
           <div id="success-message" class="hidden mt-8 p-6 bg-green-50 border border-green-200 rounded-xl text-center"><i class="fa-solid fa-circle-check text-green-600 text-4xl mb-3"></i><h3 class="text-xl font-bold text-green-800 mb-2">¡Bienvenido a El Centro Pro!</h3><p class="text-green-700">Revisa tu correo electrónico para los próximos pasos para acceder a tu cuenta.</p></div>
